@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_begonia.mk
+    $(LOCAL_DIR)/lineage_begonia.mk
