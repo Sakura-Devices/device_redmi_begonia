@@ -26,8 +26,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Inherit from begonia device
 $(call inherit-product, device/redmi/begonia/device.mk)
 
-# Inherit from our custom product configuration
+#Sakura Flag
+SAKURA_OFFICIAL := true
+SAKURA_MAINTAINER := abhixv
 TARGET_BOOT_ANIMATION_RES := 1080
+
+# Inherit from our custom product configuration
 TARGET_FACE_UNLOCK_SUPPORT := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
